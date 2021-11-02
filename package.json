@@ -1,10 +1,11 @@
 {
   "name": "minikube-docker-port-mapper",
+  "repository": "git@github.com:fardjad/node-minikube-docker-port-mapper.git",
   "bin": {
     "minikube-docker-port-mapper": "./index.js"
   },
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automated Docker port mapping for minikube",
   "main": "index.js",
   "keywords": [

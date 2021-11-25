@@ -15,6 +15,8 @@ const publishedPortsToProxyOptionsList = (ports, destinationHost) => {
 };
 
 const main = async () => {
+    process.setMaxListeners(0);
+
     try {
         checkMinikubeStatus();
     } catch (ex) {
